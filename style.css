@@ -12,8 +12,8 @@ ul {
     flex: 1;
     flex-direction: column;
     outline: auto;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
 
 }
 .header {
@@ -93,6 +93,22 @@ ul {
 .call-to-action{
     outline: solid green;
     display: flex;
+    justify-content: space-between;
+    background-color: #0071ce;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.slightly-larger-text {
+    font-size: x-large;
 }
 
 .footer {
